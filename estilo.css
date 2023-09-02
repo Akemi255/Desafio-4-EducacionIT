@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: rgb(44, 139, 139);
+}
+  
+h1 {
+    margin-top: 20px;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+.imagenes-restaurantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagen-container {
+    background-color: white;
+    height: max-content;    
+    max-width: max-content;
+    margin: 5px;
+}
+
+
+
+.imagenes-restaurantes img {
+    max-width: 280px;
+    margin: 7px;
+}
